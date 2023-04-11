@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible " content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>stopwatch</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                padding: 50px 100px;
+            }
+            h1{
+                text-align: center;
+            }
+            #container{
+                text-align: center;
+                background-color: cornflowerblue;
+                padding: 50px;
+            }
+            .input-div{
+                display: inline-block;
+
+            }
+            .inp{
+                padding: 5px 1px;
+                margin: 10px;
+                font-size: 30px;
+                font-weight: bold;
+                width: 250px;
+                text-align: center;
+            }
+            label{
+                font-size: 22px;
+            }
+        </style>
+        </head>
+        <body>
+<h1>Tempreture converter</h1>
+<div id="container">
+    <div class="input-div"  value="0">
+        <label>Celsius</label><br>
+      <input type="number" value="0" id="cel" class="inp">
+    </div>
+    <div class="input-div">
+        <label>fahrenheit</label><br>
+        <input type="number" value="32" id="far" class="inp">
+
+    </div>
+</div>
+     <script src="script.js"></script>
+        </body>
+        </html>
